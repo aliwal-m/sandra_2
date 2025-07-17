@@ -1,11 +1,26 @@
+.container {
+    display: flex;
+    justify-content: left;
+    margin-top: 150px;
+    margin-right: 100px;
+    margin: 20px;  
+}
+
+.image {
+    border-radius: 10px;
+}
+
 .top {
     display: flex;
     justify-content: flex-end;
-    background-color: #708A58;
+    flex-wrap: wrap;
+    background-color: #c55e7c;
     padding: 20px;
     font-family: 'Maven Pro', sans-serif;
     border: white solid 2px;
 }
+
+
 
 .menu {
     color: white;
@@ -14,262 +29,507 @@
     font-size: 30px;
 }
 .menu:hover {
-    color: #1b1c14;
+    color: black;
 }
 .main {
     margin-right: auto;
     margin-left: 0px;
     }
 
-img {
-    opacity: 80%;
-    margin-left: 3%;
-    margin-top: 3%;
-    border-radius: 3%;
-    }
-
-.first_block {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-
-}
-
-
-.entrance {
-    margin-left: 10%;
-    margin-top: 3%;
-}
-
-
-
-
-.back {
-    width: 100%;
-    height:max-content;
-    opacity: 0.3;
-}
-
-
-
-.program_menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    }
-
-.menu_1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 10px;
-    border-radius: 20px;
-    margin: 10px;
-    background-color: #FFF1CA;
-}
-
-.class_descr {
-    color: #708A58;
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 20px;
-    }
-
-.inside {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-    font-family: 'Maven Pro', sans-serif;
-    color: #708A58;
-}
-.but_ins {
-    display: flex;
-    flex-direction: column;
-    margin-left: 40px;
-    }
-
-    .head_courses {
+    .program_menu {
         display: flex;
         flex-direction: row;
-        margin-left: 10%;    
-    }
-
-    .icon {
-        margin-right: 10%;
-    }
-
-.cta_city {
-    border: white solid 2px;
-    border-radius: 3px;
-    padding: 5px;
-    background-color: #708A58;
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 20px;
-    width: 200px;
-    align-self: center;
-    color: #fff; 
-}
-
-.cta_city:hover {
-    background-color: #ffdb3d;
-    color: white;
-    cursor: pointer
-}
-
-
-
-
-
-    .comanda {
-        display: flex;
-        justify-content: center;
-        
-    }
-
-    .present {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        }
+    
+    .menu_1 {
         display: flex;
         flex-direction: column;
-        margin-top: 20px;
-    }
-
-    .member {
-        display: flex;
-        max-width: 700px;
-        margin: 0 auto;
-    }
-
-    .plan {
-        display: flex;
-        flex-direction: row;
-        margin: 20px;
-        padding: 20px;
-        }
-
-        .anketa {
-            display: flex;
-            justify-content: space-evenly;
-        }
-
-
-        .form {
-            display: flex;
-            flex-direction:column;
-            width: 400px;
-            height: 400px;
-            font-family: 'Maven Pro', sans-serif;
-            color: white;
-            font-size: 20px;
-            padding: 20px;
-            border: white solid 2px;
-            border-radius: 10px;
-            background-color: #789DBC;
-        }
-        .comment {
-            height: 100px;
-            resize: none;
-            font-family: 'Maven Pro', sans-serif;
-            }
-        .placeholder {
-            font-family: 'Maven Pro', sans-serif;
-        }
-        
-        .label {
-            padding: 10px;
-        }
-        .cta {
-            border: white solid 2px;
-            padding: 20px;
-            background-color: white;
-            font-size: 30px;
-            width: 300px;
-            align-self: center;
-            color: black;
-            border-radius: 10px;
-        }
-        .cta:hover {
-            background-color: #4867aa;
-            color: white;
-            cursor: pointer
-        }
-
-        .social {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            margin-top: 70px;
-            }
-    
-    .telegram {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-    }
-    .tel {
-        margin-top: 20px;
-        margin-left: 30px;
+        justify-content: center;
+        max-width: 500px;
+        padding: 5px;
+        border: solid;
+        border-color: #e3b5c0;
+        border-radius: 20px;
         font-family: 'Maven Pro', sans-serif;
-        font-family: 'Maven Pro', sans-serif;
-    }
-
-    .font {
-    font-family: 'Maven Pro', sans-serif;
-    font-size: larger;
-    }
-
-
-
-
-    .deal {
-    padding: 50px;
-    background-color: #FFF1CA;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    }
-
-
-
-
-    .tab_cont {
-        margin-top: 100px;
     }
 
     .mid {
         display: flex;
         justify-content: space-around;
-        background-color: #708A58;
+        background-color: #c55e7c;
         font-family: 'Maven Pro', sans-serif;
         border: white solid 2px;
         margin-top: 40px;
     }
-    .team {
+
+
+    .img_course {
+        margin-left: 50px;
+    }
+    
+    
+    .class {
+        color: black;
+        font-family: 'Maven Pro', sans-serif;
+        align-self: center;
+    }
+    
+    
+    .class_descr {
+        color: white;
+        font-family: 'Maven Pro', sans-serif;
+        font-size: 20px;
+        }
+    
+    .inside {
         display: flex;
         justify-content: space-around;
-        background-color: #789DBC;
+        margin-top: 20px;
+        font-family: 'Maven Pro', sans-serif;
+        color: #c55e7c;
+        font-size: 20px;
+    }
+    .but_ins {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+    
+    .button {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cta {
+        font-family: 'Maven Pro', sans-serif;
         border: white solid 2px;
-        margin-top: 40px;
-        padding: 20px;
+        padding: 10px;
+        background-color: #c55e7c;
+        font-size: 20px;
+        width: 300px;
+        align-self: center;
+        color: black;
+        border-radius: 10px;
+    }
+    .cta:hover {
+        background-color: #e3b5c0;
+        color: black;
+        cursor: pointer
+    }
+    
+        .head_courses {
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            margin-top: 10px;
+            }
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: #ebd1d7;
+    padding: 20px;
+    border-radius: 20px;
+    border-width: 10px;
+    
+    font-size: 20px;
+    color: grey;
+    margin-left: 100px;
+}
+
+
+.introText {
+    color: black;
+    text-decoration: none;
+}
+
+
+.flip-box {
+    background-color: transparent;
+    width: 350px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    display: flex;
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+  /* Position the front and back side */
+.flip-box-front, .flip-box-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    border: #e3b5c0 solid 2px;
+    border-inline-end: #e3b5c0;
+    padding: 100px;
+    border-radius: 10px;
+}
+.flip-box-back {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    padding: 100px;
+}
+  /* Style the front side (fallback if image is missing) */
+
+  /* Style the back side */
+.flip-box-back {
+    color: white;
+    transform: rotateY(180deg);
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 100px;
+    background-color: #e3b5c0;
+}
+
+
+h3 {
+    color: black;
+}
+
+
+.regalos {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.lang {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.name {
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    line-height: 30px;
+}
+
+
+.deal {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Maven Pro', sans-serif;
     }
 
 
-    .meet {
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 70px;
+    }
+    
+    .gallery-item {
+        width: 300px; /* Задайте желаемую ширину превью */
+        height: 300px; /* Задайте желаемую высоту превью */
+        overflow: hidden;
+        cursor: pointer;
+    }
+    
+    .gallery-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 50px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.9);
+    }
+    
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+    }
+    
+    .close-button {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    
+    .close-button:hover,
+    .close-button:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+/* contact info */
+    .anketa {
         display: flex;
         justify-content: space-evenly;
-        padding: 10px;
         flex-wrap: wrap;
     }
 
+    .social {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 70px;
+        }
 
-    .amanda {
+.telegram {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.tel {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: 'Maven Pro', sans-serif;
+    text-decoration: none;
+}
+
+.font {
+font-family: 'Maven Pro', sans-serif;
+font-size: larger;
+}
+
+.tab_cont {
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+/* contact info */
+
+.bar_bottom {
+    background-color: #72896f;
+    width: auto;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 40px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    font-family: 'Maven Pro', sans-serif;
+    color: #72896f;
+    font-size: 15px;
+    padding: 20px;
+    border: white solid 2px;
+    border-radius: 20px;
+    background-color: #edefe4;
+}
+
+.comm {
+    height: 200px;
+    resize: none;
+    font-family: 'Maven Pro', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.place {
+    font-family: 'Maven Pro', sans-serif;
+    border-radius: 5px;
+}
+
+.input {
+    padding: 10px;
+}
+
+
+.btn78 {
+    border: white solid 2px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #72896f;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    width: 150px;
+    align-self: center;
+    color: #d9dade;
+}
+
+.btn78:hover {
+    background-color: #d2b37c;
+    color: #72896f;
+    cursor: pointer
+}
+
+
+.table_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+}
+
+.table {
+    margin: 20px;
+    font-family: 'Maven Pro', sans-serif;
+    padding: 10px;
+}
+
+.fonts {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    color: #72896f;
+}
+
+.address {
+    font-family: 'Maven Pro', sans-serif;
+    color: #72896f;
+}
+
+.maps {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media all and (max-width: 800px) {
+
+    .top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    
+    .box {
+        margin-right: 100px;
+        }
+
+    .flip-box {
+        width: 400px;
+        height: 400px;
+    }
+    .image {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .container {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 280px;
-    }
-    .athome {
-        align-self: flex-start;
+        margin-left: 0;
     }
 
+    .regalos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .map {
+        width: 300px;
+        height:300px;
+        margin-right: 100px;
+    }
+}
 
-.rev {
-background-color: #FFF1CA;
+
+    @media all and (max-width: 500px) {
+    
+    .top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    
+    .flip-box {
+        width: 200px;
+        height: 250px;
+    }
+    .image {
+        width: 300px;
+        height: 300px;
+        }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .regalos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .map {
+        width: 300px;
+        height:300px;
+        margin-left: 50px;
+    }
 }
