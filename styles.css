@@ -370,6 +370,9 @@ font-size: larger;
         .deal_text {
         margin: 10px;
     }
+        .menu_1 {
+        max-width: 300px;
+    }
 }
 
 
@@ -423,5 +426,8 @@ font-size: larger;
     }
             .deal_text {
         margin: 10px;
+    }
+            .menu_1 {
+        max-width: 300px;
     }
 }
